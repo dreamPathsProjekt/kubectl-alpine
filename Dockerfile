@@ -1,7 +1,6 @@
 FROM alpine:3.11.5
 
-ARG VERSION
-ENV KUBECTL_VERSION ${VERSION}
+# ENV KUBECTL_VERSION v1.17.4
 
 RUN mkdir -p /opt/kube
 WORKDIR /opt/kube
