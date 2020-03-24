@@ -1,6 +1,6 @@
 FROM alpine:3.11.5
 
-ENV KUBECTL_VERSION v1.16.8
+ENV KUBECTL_VERSION v1.16.7
 
 RUN apk update && \
     apk upgrade && \
